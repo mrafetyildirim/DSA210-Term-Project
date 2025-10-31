@@ -1,57 +1,17 @@
 # The Relation Between Terrorism and the Quality of Life
 
-Overview
-This term project is designed to give you hands-on experience applying the data science concepts and techniques learned throughout the semester to a real-world problem. You will work through the entire data science pipeline: from data collection and cleaning to analysis, visualization, and presentation of insights.
+My Name is Mehmet Rafet Yıldırım, currently a sophomore Political Science and International Relations student with a Data Science and Analytics double major, and for my DSA210 term project I want to analyze the relationship between the quality of life and terrorism around the globe, especially between 1990’s and 2010’s.
 
-Learning Objectives
-By completing this project, you will:
-●	Apply data science methodologies to solve a practical problem
-●	Develop skills in data collection, preparation, and analysis
-●	Implement appropriate statistical and machine learning techniques
-●	Create effective data visualizations
-●	Communicate findings through written reports and presentations
-●	Practice ethical considerations in data science
+Overview:
+The relationship between terrorism and the average quality of life might be much complex than what we expect at the first place. This project aims to reveal at least some of the underlying causes of terrorism around the globe. The ultimate goal is to predict the likelihood of increase in terrorism in certain countries.
 
-Concept
-●	In the project, every student is expected to work alone. 
-●	You can either work with a data set of your own (e.g. your fitness data, reddit usages, etc.), or a publicly available data. If you opt to work with publicly available data, you are expected to enrich it by another set of data. For example, if you work with stock market price data, you can create indices or add other financial/economic indicators.
-●	VRL Lab offers the following public datasets and if you are interested in research about computational social science, you can conduct a project with them.
-o	Twitter dataset for #Secim2023 project
-o	Diplomatic text dataset from GlobalDiplomacyNet project
-●	Some topics, Spotify data, step count data, are NOT allowed. 
+Motivation:
+Living in Turkey comes with a price, and that is the anxiety of facing with a terrorist attack. I always wanted to find the answe to the question of whether the life quality breeds the reasons of terrorism or the terrorism is the reason that decreases the quality of life. This project will help me to understand the truth.
 
-What to present
-●	Motivation: Why are you working on this project?
-●	Data source: Where did you get this data? How did you collect it? 
-●	Data analysis: Techniques used, different stages of the analysis 
-●	Findings: What are the interesting findings that you found in this project? 
-●	Limitations and future work: What could be done better? Do you have any future plans about your project?
-
-Note: the presentation can be either a classical article type report, a video, webpage for the project, etc. You can prefer any of these. 
-
-
-
-
-Timeline
-●	31 October: Submit the project proposal in a Github URL with README.md.  In the README.md file, please outline the project proposal, the data that you would be using, and your plans on how to collect it. 
-●	28 November: Collect the data, conduct exploratory data analysis methods and hypothesis tests on the data
-●	02 January: Apply ML methods on the dataset
-●	09 January until 23:59: Final submission
-
-Note: All submissions will be through Github. After you submit the Github links, we will be then following your progress through Github. So do not change the link. Also, we expect you to do Github commits regularly. 
-
-Note: Every student will be assigned to an assistant, and is expected to get help from the assistant. 
-
-Code Requirements
-●	All code must be written in Python
-●	Code must be well-documented with comments
-●	Include a requirements.txt file for Python dependencies
-●	Submit a GitHub repository link containing all code and documentation
-●	Include a README.md with instructions to reproduce your analysis
-
-Evaluation
-There will be three aspects for grading: 1) originality (how original is your project idea), 2) quality (how best you applied the relevant methods to analyze your data), 3) presentation (how well the presentation is). We will also consider peer-evaluation, that each student will be asked to grade their own work and a selected set of other students’.
-
-Academic Integrity
-All sources must be properly cited. Your submitted work must be original and completed by yourself. Use of AI tools (e.g. LLMs) is permitted but must be explicitly documented, including specific prompts used and outputs generated. Failure to disclose AI assistance will be considered academic dishonesty.
-
+Datasets:
+The main dataset that i will focus on is the START(National Consortium for the Study of Terrorism and Responses to Terrorism)’s Global Terrorism Database. Firstly, I will sort all the terrorist attacks between 1990 and 2019, then I will collect the data of the number of terrorist attacks in each country. I will classify those attacks as their impact(i.e. casualties), this will help me to have a better understanding of countries’ states in terms of terrorism.
+https://www.start.umd.edu/download-global-terrorism-database
+I will use two different datasets to analyze the relationship between terrorism and the quality of life. Those datasets will help me to understand the states of freedom/development in countries.
+https://www.kaggle.com/datasets/gsutters/the-human-freedom-index
+https://www.kaggle.com/datasets/iamsouravbanerjee/human-development-index-dataset
+P.S. I did not have time to upload datasets to my github compository since I couldn’t finish sorting the data.
