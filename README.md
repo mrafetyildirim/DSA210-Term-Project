@@ -16,5 +16,9 @@ Living in Turkey comes with a price, and that is the anxiety of facing a terrori
   - https://www.kaggle.com/datasets/iamsouravbanerjee/human-development-index-dataset
 
 # **Hypothesis**
-- Null Hypothesis: There is no correlation between the number of terrorist attacks and the Human Development Index
-- Alternative Hypothesis: Prevalence of terrorist attacks negatively affects the Human Development in countries.
+
+- Null Hypothesis 1: Prevalence of terrorist attacks negatively affects the Human Development in countries.
+- Alternative Hypothesis 1: There is no correlation between the number of terrorist attacks and the Human Development Index.
+- Null hypothesis 2: The severity of terrorist attacks negatively affects the Human Development Index in various countries.
+- Alternative Hypothesis 2: The severity of terrorist attacks does not affect the Human Development Index.
+
